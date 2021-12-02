@@ -7,6 +7,6 @@ RegisterCommand("info", function()
       TriggerEvent('chat:addMessage', {
         color = { 255, 0, 0},
         multiline = true,
-        args = {"「Web」", "Aqui tienes la web: fugazroleplay.xyz "}
+        args = {"「Web」", "Aqui tienes la web: https://fugazroleplay.xyz "}
       })
 end)

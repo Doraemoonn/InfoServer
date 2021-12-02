@@ -1,5 +1,4 @@
 RegisterCommand("info", function()
-    local numero = math.random(1, 6)
     TriggerEvent('chat:addMessage', {
         color = { 255, 0, 0},
         multiline = true,
@@ -8,6 +7,6 @@ RegisterCommand("info", function()
       TriggerEvent('chat:addMessage', {
         color = { 255, 0, 0},
         multiline = true,
-        args = {"「Web」", "Aqui tienes la web: elcomienzorp.xyz "}
+        args = {"「Web」", "Aqui tienes la web: fugazroleplay.xyz "}
       })
 end)
